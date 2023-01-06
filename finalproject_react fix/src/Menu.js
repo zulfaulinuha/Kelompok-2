@@ -11,6 +11,9 @@ export default function Menu(props) {
         <li>
           <Link to="/">Homepage</Link>
         </li>
+        <li>
+          <Link to="/">About Us</Link>
+        </li>
         <li></li>
       </ul>
       <ByAuthor apiUrl={props.apiUrl} />

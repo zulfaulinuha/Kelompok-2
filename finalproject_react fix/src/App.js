@@ -5,6 +5,9 @@ import MainContent from "./MainContent";
 import SearchResult from "./SearchResult";
 import LeftPanel from "./LeftPanel";
 import Posts from "./Posts";
+import Iklan from "./Iklan";
+import Iklandua from "./Iklandua";
+
 import { Route, Routes } from "react-router-dom";
 
 export default function App() {
@@ -16,7 +19,10 @@ export default function App() {
       leftPane={<LeftPanel apiUrl={apiUrl} />}
       mainPane={
         <>
+          <Iklandua />
+
           <MainHeader />
+
           <Routes>
             <Route
               path="/posts/author/:name"
@@ -29,6 +35,8 @@ export default function App() {
             />
             <Route path="/search/result" element={<SearchResult />} />
           </Routes>
+
+          <Iklan />
         </>
       }
     />
