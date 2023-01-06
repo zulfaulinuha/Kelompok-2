@@ -1,0 +1,10 @@
+[
+    {
+    "_id": {
+        "$oid": "1"
+      },
+    "judul_iklan": "Iklan Paket Data Telkomsel",
+    "link1": "https://temon.kulonprogokab.go.id/files/news/normal/f5b4186c0fa34580e8a2dcdeb0138589.jpeg"
+    }
+
+]

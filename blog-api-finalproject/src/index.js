@@ -3,6 +3,8 @@
 const Hapi = require("@hapi/hapi");
 const pages = require("./db/pages.json");
 const posts = require("./db/posts.json");
+const iklan = require("./db/iklan.json");
+const iklandua = require ("./db/iklandua.json");
 
 const init = async () => {
   const server = Hapi.server({
@@ -25,6 +27,28 @@ const init = async () => {
       });
     },
   });
+
+  /* iklan by id */
+  server.route({
+    method: "GET",
+    path: "/iklan",
+    handler: (request, h) => {
+      return iklan.filter((iklan) => {
+        return iklan;
+      });
+    },
+  });
+
+   /* iklan banner */
+   server.route({
+    method: "GET",
+    path: "/iklandua",
+    handler: (request,h) => {
+      return iklandua.filter((iklandua) => {
+        return iklandua;
+      });
+    },
+   });
 
   /* search */
   server.route({
