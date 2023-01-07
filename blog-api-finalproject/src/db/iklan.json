@@ -4,7 +4,28 @@
         "$oid": "1"
       },
     "judul_iklan": "Iklan Paket Data Telkomsel",
-    "link1": "https://temon.kulonprogokab.go.id/files/news/normal/f5b4186c0fa34580e8a2dcdeb0138589.jpeg"
-    }
+    "link_webnya":"https://temon.kulonprogokab.go.id/detil/360/temonizen-pelanggan-telkomsel-segera-ganti-kartu-lama-ke-kartu-4g",
+    "link": "https://temon.kulonprogokab.go.id/files/news/normal/f5b4186c0fa34580e8a2dcdeb0138589.jpeg"
+    },
+
+    {
+      "_id": {
+          "$oid": "2"
+        },
+      "judul_iklan": "Agen Judi Online Terbaik",
+      "link_webnya":"https://www.google.com/url?sa=i&url=https%3A%2F%2Ffineartamerica.com%2Ffeatured%2F1-situs-judi-online-terpercaya-dan-resmi-di-indonesia-aktif4d-agen-togel-online-terpercaya.html%3Fproduct%3Dpuzzle%26puzzleType%3Dpuzzle-18-24&psig=AOvVaw29pCyCQEzI0lke6aa25JtZ&ust=1672806194079000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLiP5unGqvwCFQAAAAAdAAAAABAJ",
+      "link": "https://render.fineartamerica.com/images/rendered/default/flat/puzzle/images/artworkimages/medium/3/1-situs-judi-online-terpercaya-dan-resmi-di-indonesia-aktif4d-agen-togel-online-terpercaya.jpg?&targetx=-325&targety=0&imagewidth=1650&imageheight=750&modelwidth=1000&modelheight=750&backgroundcolor=763824&orientation=0&producttype=puzzle-18-24&brightness=76&v=6"
+      },
+
+      {
+        "_id": {
+            "$oid": "3"
+          },
+        "judul_iklan": "Slot Bola Sejagad Raya",
+        "link_webnya":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.officearte.co%2Fprofile%2Fcara-daftar-judi-bola-2022%2Fprofile&psig=AOvVaw0YRyAdFo5S6srABEVnTe9V&ust=1672806760539000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPCJh_jIqvwCFQAAAAAdAAAAABAE",
+        "link": "https://static.wixstatic.com/media/5091d5_b4f870c39be14c44ac55119ed2bb6a95~mv2.jpg/v1/fill/w_600,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5091d5_b4f870c39be14c44ac55119ed2bb6a95~mv2.jpg"
+        }
 
 ]
+
+

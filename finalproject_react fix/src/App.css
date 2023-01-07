@@ -3473,6 +3473,27 @@ button:disabled,
   }
 }
 
+.postss {
+  padding-left: 81px;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 0 2em -6em;
+  width: calc(100% + 6em);
+  
+}
+
+.posisi-iklan {
+  display: flex;
+  width: calc(100% + 6em);
+  margin: 8px;
+}
+
 /* Posts */
 
 .posts {
@@ -3486,6 +3507,7 @@ button:disabled,
   flex-wrap: wrap;
   margin: 0 0 2em -6em;
   width: calc(100% + 6em);
+  
 }
 
 .posts article {
@@ -3500,6 +3522,7 @@ button:disabled,
   margin: 0 0 6em 6em;
   position: relative;
   width: calc(33.33333% - 6em);
+  
 }
 
 .posts article:before {
